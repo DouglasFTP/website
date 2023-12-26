@@ -1,0 +1,89 @@
+#main-content {
+    text-align: center;
+    color: azure;
+    border: 5px red solid;
+    top: 250px;
+    background-image: url("images.jpg");
+    position: absolute;
+    left: 645px;
+    height: 370px;
+    width: 650px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+ul {
+    list-style-position: inside;;
+    position: relative;
+}
+
+#buttons {
+    margin-bottom: 10px;   
+}
+
+.lines {
+    border: 2px solid red;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input {
+    text-align: center;
+}
+
+#sidebox1 {
+    position: absolute;
+    left: 25px;
+    color: red;
+    text-align: center;
+    padding-bottom: -5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    left: 725px;
+}
+
+#sociallinks a:active {
+    color: purple;
+}
+#sociallinks a:visited {
+    color: grey;
+}
+
+#sociallinks a:hover {
+    color: red;
+}
+
+#sociallinks {
+    position: absolute;
+    bottom: 5px;
+    border: 1px solid black;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 1;
+}
+
+button {
+    background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
